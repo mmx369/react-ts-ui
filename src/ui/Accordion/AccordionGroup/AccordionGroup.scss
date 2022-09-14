@@ -1,0 +1,7 @@
+@import 'ui/styles';
+.AccordionGroup {
+    &-Title {
+        @include roboto-14-bold;
+        margin-bottom: 15px;
+    }
+}

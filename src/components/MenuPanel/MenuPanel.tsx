@@ -23,6 +23,15 @@ export const MenuPanel: React.FC = () => {
           className={({ isActive }) =>
             isActive ? activeClassName : 'MenuPanel-ListItem'
           }
+          to={ROUTES.ACCORDION}
+        >
+          Accordion
+        </NavLink>
+
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? activeClassName : 'MenuPanel-ListItem'
+          }
           to={ROUTES.BUTTON}
         >
           Button
