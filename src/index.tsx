@@ -1,4 +1,10 @@
-import { AccordionPage, ButtonPage, HomePage, IconPage } from 'pages'
+import {
+  AccordionPage,
+  ButtonPage,
+  HomePage,
+  IconPage,
+  SelectPage,
+} from 'pages'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { ROUTES } from 'routes'
@@ -11,6 +17,7 @@ root.render(
       <Route path={ROUTES.ACCORDION} element={<AccordionPage />} />
       <Route path={ROUTES.BUTTON} element={<ButtonPage />} />
       <Route path={ROUTES.ICON} element={<IconPage />} />
+      <Route path={ROUTES.SELECT} element={<SelectPage />} />
     </Routes>
   </BrowserRouter>
 )

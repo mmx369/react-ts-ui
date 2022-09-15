@@ -45,6 +45,15 @@ export const MenuPanel: React.FC = () => {
         >
           Icon
         </NavLink>
+
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? activeClassName : 'MenuPanel-ListItem'
+          }
+          to={ROUTES.SELECT}
+        >
+          Select
+        </NavLink>
       </div>
     </nav>
   )
