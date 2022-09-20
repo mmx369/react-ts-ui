@@ -3,5 +3,6 @@ export const ROUTES = {
   BUTTON: '/button/',
   HOME: '/',
   ICON: '/icon/',
+  MODAL: '/modal/',
   SELECT: '/select/',
 }

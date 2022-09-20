@@ -1,17 +1,8 @@
 import cn from 'classnames'
 import React, { DOMAttributes } from 'react'
-import { newGuid } from 'utils/guid'
-import { ReactComponent as ArrowDown } from '../assets/icons/arrowDown.svg'
-import { ReactComponent as Pdf } from '../assets/icons/pdf.svg'
 
 import './Icon.scss'
-
-export type IconType = 'Pdf' | 'ArrowDown'
-
-const iconTypes = new Map([
-  ['ArrowDown', <ArrowDown key={newGuid()} />],
-  ['Pdf', <Pdf key={newGuid()} />],
-])
+import { IconType, iconTypes } from './IconType'
 
 export interface IIconProps extends DOMAttributes<HTMLDivElement> {
   className?: string

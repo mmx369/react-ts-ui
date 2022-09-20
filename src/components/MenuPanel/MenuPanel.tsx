@@ -50,6 +50,15 @@ export const MenuPanel: React.FC = () => {
           className={({ isActive }) =>
             isActive ? activeClassName : 'MenuPanel-ListItem'
           }
+          to={ROUTES.MODAL}
+        >
+          Modal
+        </NavLink>
+
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? activeClassName : 'MenuPanel-ListItem'
+          }
           to={ROUTES.SELECT}
         >
           Select
