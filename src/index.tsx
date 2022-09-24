@@ -1,6 +1,7 @@
 import {
   AccordionPage,
   ButtonPage,
+  CheckboxPage,
   HomePage,
   IconPage,
   ModalPage,
@@ -17,6 +18,7 @@ root.render(
       <Route path={ROUTES.HOME} element={<HomePage />} />
       <Route path={ROUTES.ACCORDION} element={<AccordionPage />} />
       <Route path={ROUTES.BUTTON} element={<ButtonPage />} />
+      <Route path={ROUTES.CHECKBOX} element={<CheckboxPage />} />
       <Route path={ROUTES.ICON} element={<IconPage />} />
       <Route path={ROUTES.MODAL} element={<ModalPage />} />
       <Route path={ROUTES.SELECT} element={<SelectPage />} />

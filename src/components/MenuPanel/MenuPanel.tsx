@@ -41,6 +41,15 @@ export const MenuPanel: React.FC = () => {
           className={({ isActive }) =>
             isActive ? activeClassName : 'MenuPanel-ListItem'
           }
+          to={ROUTES.CHECKBOX}
+        >
+          Checkbox
+        </NavLink>
+
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? activeClassName : 'MenuPanel-ListItem'
+          }
           to={ROUTES.ICON}
         >
           Icon
